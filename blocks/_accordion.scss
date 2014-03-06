@@ -1,0 +1,26 @@
+.st-block[data-type=accordion] {
+  .panel-heading .buttons {
+    float: right;
+
+    .reorder {
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 1;
+      color: #000;
+      text-shadow: 0 1px 0 #fff;
+      opacity: .2;
+      padding: 0;
+      cursor: pointer;
+      background: 0 0;
+      border: 0;
+      -webkit-appearance: none;
+
+      &:hover, &:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+        opacity: .5;
+      }
+    }
+  }
+}
