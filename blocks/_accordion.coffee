@@ -6,13 +6,13 @@ tab_template = '
         <button type="button" class="reorder"><i class="st-icon st-icon-move"></i></button>
       </div>
       <h4 class="panel-title">
-         <a data-toggle="collapse" contenteditable="true" class="st-required">
+         <a data-toggle="collapse" contenteditable="true" class="st-text-block st-required">
           Panel Heading
         </a>
       </h4>
     </div>
     <div class="panel-collapse collapse in">
-      <div class="panel-body" contenteditable="true" class="st-required">
+      <div class="panel-body st-text-block st-required" contenteditable="true">
         Panel body
       </div>
     </div>
@@ -21,7 +21,7 @@ tab_template = '
 SirTrevor.Blocks.Accordion = SirTrevor.Block.extend {
   type: "accordion"
   title: 'Accordion'
-  editorHTML: '<div class="panel-group st-text-block"></div>'
+  editorHTML: '<div class="panel-group"></div>'
   icon_name: 'accordion'
   controllable: true
 
@@ -33,14 +33,16 @@ SirTrevor.Blocks.Accordion = SirTrevor.Block.extend {
 
   addPanel: ->
     this.$('.panel-group').append(tab_template)
+    this._initTextBlocks()
 
   onBlockRender: ->
     if this.$('.panel-group').children('.panel').length == 0
       this.$('.panel-group').append(tab_template)
+      this._initTextBlocks()
 
     this.$('.panel-group').on 'click', 'button.close', ->
       if confirm 'Are you sure you want to remove this panel?'
-        $(this).closest('.panel').remove()
+        $(this).closest('.panel').trigger('destroy').remove()
 
     new Sortable this.$('.panel-group')[0], {
       handle: '.reorder'

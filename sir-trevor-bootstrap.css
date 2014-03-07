@@ -21,3 +21,5 @@
       text-decoration: none;
       cursor: pointer;
       opacity: .5; }
+.st-block[data-type=accordion] .st-text-block {
+  padding: 15px; }
