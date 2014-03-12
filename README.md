@@ -7,6 +7,10 @@ Supported elements
 * Button
 * Accordion
 
+ 
+----------------------------------------
+Note: This plugin designed to work with modified forked version of SirTrevor: https://github.com/ansata-biz/sir-trevor-js
+
 
 Installation
 ------------
@@ -35,4 +39,4 @@ Installation
 Credits
 -------
 
-This plugin is brought to you by Ansata Web Group.
+This plugin is brought to you by [Ansata Web Group](http://ansata.biz).
