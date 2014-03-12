@@ -27,7 +27,7 @@ SirTrevor.Blocks.Button = SirTrevor.Block.extend {
     <div class="form-group"> URL: <input type="text" name="url" value=""/> </div>
     <button type="button">OK</button>
   </div>
-  <div class="st-button-wrapper st-text-block" style="text-align: center; min-height: 0">
+  <div class="st-button-wrapper" style="text-align: center; min-height: 0">
       ' + button_template + '
   </div>'
   icon_name: 'button'
@@ -84,7 +84,10 @@ SirTrevor.Blocks.Button = SirTrevor.Block.extend {
 
   checkForButton: ->
     if this.$('.btn').length == 0
-      this.getWrapper().html(button_template)
+      setTimeout =>
+        if this.$('.btn').length == 0
+          this.getWrapper().html(button_template)
+      , 500
 
   getWrapper: -> this.$('.st-button-wrapper')
   getButton: -> this.$('.st-button-wrapper .btn')

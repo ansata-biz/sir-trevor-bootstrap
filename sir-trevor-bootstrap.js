@@ -121,7 +121,7 @@
     <div class="form-group"> URL: <input type="text" name="url" value=""/> </div>\
     <button type="button">OK</button>\
   </div>\
-  <div class="st-button-wrapper st-text-block" style="text-align: center; min-height: 0">\
+  <div class="st-button-wrapper" style="text-align: center; min-height: 0">\
       ' + button_template + '\
   </div>',
     icon_name: 'button',
@@ -206,8 +206,13 @@
       });
     },
     checkForButton: function() {
+      var _this = this;
       if (this.$('.btn').length === 0) {
-        return this.getWrapper().html(button_template);
+        return setTimeout(function() {
+          if (_this.$('.btn').length === 0) {
+            return _this.getWrapper().html(button_template);
+          }
+        }, 500);
       }
     },
     getWrapper: function() {
