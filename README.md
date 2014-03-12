@@ -22,9 +22,10 @@ Installation
       <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
     ~~~
   
-2. Link SirTrevor bootstrap plugin script and styles to your page:
+2. Link [Sortable](https://github.com/rubaxa/Sortable) lib, SirTrevor bootstrap plugin script and styles to your page:
 
     ~~~html
+      <script src="sir-trevor-bootstrap/lib/Sortable.min.js"></script>
       <script src="sir-trevor-bootstrap/sir-trevor-bootstrap.js"></script>
       <link rel="stylesheet" href="sir-trevor-bootstrap/sir-trevor-bootstrap.css"/>
       
