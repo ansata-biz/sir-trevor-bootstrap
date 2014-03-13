@@ -16,7 +16,7 @@
       </h4>\
     </div>\
     <div class="panel-collapse collapse in">\
-      <div class="panel-body st-text-block st-required" contenteditable="true">\
+      <div class="panel-body st-text-block" contenteditable="true">\
         Panel body\
       </div>\
     </div>\
@@ -41,7 +41,7 @@
     onBlockRender: function() {
       if (this.$('.panel-group').children('.panel').length === 0) {
         this.$('.panel-group').append(tab_template);
-        this._initTextBlocks();
+        this._initTextBlocks(true);
       }
       this.$('.panel-group').on('click', 'button.close', function() {
         if (confirm('Are you sure you want to remove this panel?')) {
