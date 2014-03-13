@@ -81,6 +81,7 @@ SirTrevor.Blocks.Button = SirTrevor.Block.extend {
 
     $block_checkbox = this.$('[name=is_block]').on 'change click', () =>
       this.getButton().toggleClass 'btn-block', $block_checkbox.is(':checked')
+    $block_checkbox.trigger 'change'
 
   checkForButton: ->
     if this.$('.btn').length == 0

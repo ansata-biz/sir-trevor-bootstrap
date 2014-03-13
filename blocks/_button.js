@@ -110,9 +110,10 @@
         return _results;
       });
       $sizes_select.trigger('change');
-      return $block_checkbox = this.$('[name=is_block]').on('change click', function() {
+      $block_checkbox = this.$('[name=is_block]').on('change click', function() {
         return _this.getButton().toggleClass('btn-block', $block_checkbox.is(':checked'));
       });
+      return $block_checkbox.trigger('change');
     },
     checkForButton: function() {
       var _this = this;
