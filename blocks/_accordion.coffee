@@ -6,7 +6,7 @@ tab_template = '
         <button type="button" class="reorder"><i class="st-icon st-icon-move"></i></button>
       </div>
       <h4 class="panel-title">
-         <a data-toggle="collapse" contenteditable="true" class="st-text-block st-required">
+         <a data-toggle="collapse" contenteditable="true" class="st-text-block">
           Panel Heading
         </a>
       </h4>
