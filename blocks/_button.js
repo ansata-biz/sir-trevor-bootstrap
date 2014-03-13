@@ -153,7 +153,9 @@
         v = data[i];
         $el = this.$('select, input').filter('[name=' + i + ']');
         if ($el.attr('type') === 'checkbox') {
-          $el.attr('checked', 'yes');
+          if (v) {
+            $el.attr('checked', 'yes');
+          }
         } else {
           $el.val(v);
         }

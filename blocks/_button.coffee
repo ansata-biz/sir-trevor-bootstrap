@@ -81,7 +81,8 @@ SirTrevor.Blocks.Button = SirTrevor.Block.extend {
 
     $block_checkbox = this.$('[name=is_block]').on 'change click', () =>
       this.getButton().toggleClass 'btn-block', $block_checkbox.is(':checked')
-    $block_checkbox.trigger 'change'
+    $block_checkbox.trigger('change')
+
 
   checkForButton: ->
     if this.$('.btn').length == 0
@@ -108,7 +109,7 @@ SirTrevor.Blocks.Button = SirTrevor.Block.extend {
     for own i, v of data
       $el = this.$('select, input').filter('[name='+i+']')
       if $el.attr('type') == 'checkbox'
-        $el.attr('checked', 'yes')
+        $el.attr('checked', 'yes') if v
       else
         $el.val(v)
     this.getButton().html(data.html)
