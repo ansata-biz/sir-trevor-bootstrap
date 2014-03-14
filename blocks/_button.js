@@ -141,7 +141,8 @@
         } else {
           value = $(this).val();
         }
-        return data[this.getAttribute('name')] = value;
+        data[this.getAttribute('name')] = value;
+        return true;
       });
       data.html = this.getButton().html();
       return this.setData(data);

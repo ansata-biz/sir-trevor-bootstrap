@@ -102,6 +102,7 @@ SirTrevor.Blocks.Button = SirTrevor.Block.extend {
       else
         value = $(this).val()
       data[this.getAttribute('name')] = value
+      return true # continue
     data.html = this.getButton().html()
     this.setData data
 
