@@ -1,0 +1,94 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
+				],
+				"tags": [
+					"menu",
+					"list",
+					"items",
+					"lines",
+					"options"
+				],
+				"grid": 16,
+				"matchesSearch": false
+			},
+			"properties": {
+				"id": 184,
+				"order": 1,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "menu",
+				"ligatures": "accordion"
+			},
+			"setIdx": 0,
+			"iconIdx": 184
+		},
+		{
+			"icon": {
+				"paths": [
+					"M0 0v1024h1024v-1024h-1024zM960 960h-896v-896h896v896zM768 224l-320 320-192-192-128 128 320 320 448-448-128-128z"
+				],
+				"tags": [
+					"checkbox-checked",
+					"tick",
+					"checked",
+					"selected"
+				],
+				"grid": 16,
+				"matchesSearch": false
+			},
+			"properties": {
+				"id": 312,
+				"order": 2,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "button",
+				"ligatures": "button"
+			},
+			"setIdx": 0,
+			"iconIdx": 312
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "ST-Bootstrap"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "ST-Bootstrap"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": false,
+		"gridSize": 16,
+		"showLiga": true,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sir-trevor-bootstrap",
+  "repo": "ansata-biz/sir-trevor-bootstrap",
+  "version": "0.1.0",
+  "description": "Bootstrap UI elements blocks",
+  "keywords": [ "sir-trevor", "block", "bootstrap", "accordion", "button" ],
+
+  "license": "MIT",
+
+  "main": "sir-trevor-bootstrap.js",
+  "scripts": [ "sir-trevor-bootstrap.js" ],
+  "styles": [ "sir-trevor-bootstrap.css" ],
+
+  "dependencies": {
+    "madebymany/sir-trevor-js": "*",
+    "RubaXa/Sortable": "*"
+  }
+}

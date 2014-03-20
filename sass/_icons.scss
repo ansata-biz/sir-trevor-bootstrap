@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'ST-Bootstrap';
+  src: url('../icons/ST-Bootstrap.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.st-block-control[data-type=button],
+.st-block-control[data-type=accordion]
+{
+  .st-icon {
+     font-family: 'ST-Bootstrap';
+  }
+}
