@@ -4,53 +4,50 @@
 		{
 			"icon": {
 				"paths": [
-					"M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
+					"M877.714 768v73.143q0 14.857-10.857 25.714t-25.714 10.857h-804.571q-14.857 0-25.714-10.857t-10.857-25.714v-73.143q0-14.857 10.857-25.714t25.714-10.857h804.571q14.857 0 25.714 10.857t10.857 25.714zM877.714 475.429v73.143q0 14.857-10.857 25.714t-25.714 10.857h-804.571q-14.857 0-25.714-10.857t-10.857-25.714v-73.143q0-14.857 10.857-25.714t25.714-10.857h804.571q14.857 0 25.714 10.857t10.857 25.714zM877.714 182.857v73.143q0 14.857-10.857 25.714t-25.714 10.857h-804.571q-14.857 0-25.714-10.857t-10.857-25.714v-73.143q0-14.857 10.857-25.714t25.714-10.857h804.571q14.857 0 25.714 10.857t10.857 25.714z"
 				],
+				"width": 878,
 				"tags": [
-					"menu",
+					"reorder",
 					"list",
-					"items",
-					"lines",
-					"options"
+					"menu"
 				],
-				"grid": 16,
-				"matchesSearch": false
+				"grid": 14
 			},
 			"properties": {
-				"id": 184,
+				"id": 177,
 				"order": 1,
-				"prevSize": 32,
+				"prevSize": 28,
 				"code": 58880,
-				"name": "menu",
+				"name": "reorder",
 				"ligatures": "accordion"
 			},
 			"setIdx": 0,
-			"iconIdx": 184
+			"iconIdx": 177
 		},
 		{
 			"icon": {
 				"paths": [
-					"M0 0v1024h1024v-1024h-1024zM960 960h-896v-896h896v896zM768 224l-320 320-192-192-128 128 320 320 448-448-128-128z"
+					"M391.429 742.286l350.857-350.857q10.857-10.857 10.857-25.714t-10.857-25.714l-58.286-58.286q-10.857-10.857-25.714-10.857t-25.714 10.857l-266.857 266.857-120.571-120.571q-10.857-10.857-25.714-10.857t-25.714 10.857l-58.286 58.286q-10.857 10.857-10.857 25.714t10.857 25.714l204.571 204.571q10.857 10.857 25.714 10.857t25.714-10.857zM877.714 237.714v548.571q0 68-48.286 116.286t-116.286 48.286h-548.571q-68 0-116.286-48.286t-48.286-116.286v-548.571q0-68 48.286-116.286t116.286-48.286h548.571q68 0 116.286 48.286t48.286 116.286z"
 				],
+				"width": 878,
 				"tags": [
-					"checkbox-checked",
-					"tick",
-					"checked",
-					"selected"
+					"check-sign",
+					"check",
+					"tick"
 				],
-				"grid": 16,
-				"matchesSearch": false
+				"grid": 14
 			},
 			"properties": {
-				"id": 312,
+				"id": 298,
 				"order": 2,
-				"prevSize": 32,
+				"prevSize": 28,
 				"code": 58881,
-				"name": "button",
+				"name": "check-sign",
 				"ligatures": "button"
 			},
 			"setIdx": 0,
-			"iconIdx": 312
+			"iconIdx": 298
 		}
 	],
 	"height": 1024,
@@ -58,37 +55,22 @@
 		"name": "ST-Bootstrap"
 	},
 	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
 		"fontPref": {
 			"prefix": "icon-",
 			"metadata": {
 				"fontFamily": "ST-Bootstrap"
 			},
-			"showGlyphs": true,
 			"metrics": {
 				"emSize": 512,
 				"baseline": 6.25,
 				"whitespace": 50
-			},
-			"resetPoint": 58880,
-			"showQuickUse": true,
-			"quickUsageToken": false,
-			"showMetrics": true,
-			"showMetadata": false
+			}
 		},
-		"imagePref": {
-			"color": 0,
-			"height": 32,
-			"columns": 16,
-			"margin": 16,
-			"png": false,
-			"sprites": true
-		},
+		"imagePref": {},
 		"historySize": 100,
 		"showCodes": false,
-		"gridSize": 16,
-		"showLiga": true,
-		"showGrid": true,
-		"showGlyphs": true,
-		"showQuickUse": true
+		"showLiga": true
 	}
 }
