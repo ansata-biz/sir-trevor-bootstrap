@@ -6,7 +6,7 @@
   SirTrevor.Blocks.Accordion = SirTrevor.Block.extend({
     type: "accordion",
     title: 'Accordion',
-    editorHTML: '<div class="panel-group"></div>',
+    editorHTML: '<div class="panel-container"><div class="panel-group"></div></div>',
     icon_name: 'accordion',
     controllable: true,
     constructor: function(data, instance_id, sirTrevor) {
